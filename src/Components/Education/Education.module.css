@@ -8,11 +8,15 @@
 }
 
 .educationWrapper h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+.educationWrapper p{
     font-size: 20px;
     line-height: 30px;
 }
 .educationWrapper .pera{
-    width: 60%;
+    width: 100%;
     margin-bottom: 50px;
 }
 

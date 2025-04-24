@@ -10,7 +10,9 @@ function Education () {
     return (
         <div className={`${educationCSS.educationWrapper} section`}>
             <h2>My Education</h2>
-            <p className={educationCSS.pera}>Hai This is</p>
+            <p className={educationCSS.pera}>
+A dedicated Computer Science graduate with a strong foundation in programming, always eager to learn and take on new challenges in the tech world.
+</p>
 
             <Swiper
                 className={educationCSS.Swiper}
@@ -23,7 +25,7 @@ function Education () {
                     768: {
                         slidesPerView: 2
                     },
-                    1024: {
+                    1200: {
                         slidesPerView: 3
                     }
                 }}
