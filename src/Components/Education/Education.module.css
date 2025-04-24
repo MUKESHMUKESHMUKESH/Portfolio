@@ -1,0 +1,60 @@
+.Swiper{
+    width: 100% !important;
+
+}
+.educationWrapper{
+    color: var(--text-color);
+    gap: 18px;
+}
+
+.educationWrapper h2{
+    font-size: 15px;
+    line-height: 30px;
+}
+.educationWrapper .pera{
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.Card{
+    height: 380px;
+    width: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60% 60%;
+}
+.Card .content{
+    position: absolute;
+    bottom: -60px;
+    left: 20px;
+    color: var(--White-color);
+    padding: 15px 20px;
+    background-color: var(--button-bg);
+    border: 0.5px solid var(--White-color);
+    transition: .6s;
+}
+.Card:hover .content{
+    bottom: 20px;
+}
+.Card .content h3{
+    font-size: 15px;
+    font-weight: 300;
+}
+.Card1{
+    background-image: url(./../../assets/1.webp.png);
+}
+.Card2{
+    background-image: url(./../../assets/2.webp.png
+    );
+}
+.Card3{
+    background-image: url(./../../assets/3.webp.png);
+
+
+}
+.Card4{
+    background-image: url(./../../assets/4.webp.png);
+}

@@ -1,0 +1,23 @@
+.Swiper{
+    width: 100% !important;
+    margin-top: 60px;
+
+}
+.Project{
+    display:flex;
+    flex-direction:column;
+    gap: 24px;
+}
+.ProjectWrapper{
+    color: var(--text-color);
+    gap: 18px;
+}
+
+.ProjectWrapper h2{
+    font-size: 15px;
+    line-height: 30px;
+}
+.ProjectWrapper .pera{
+    width: 60%;
+    margin-bottom: 50px;
+}

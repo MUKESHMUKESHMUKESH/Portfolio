@@ -1,0 +1,113 @@
+.ServiceWrapper{
+    gap: 18px;
+}
+.ServiceWrapper h2{
+    font-size: 32px;
+    line-height: 30px;
+}
+.ServiceWrapper .pera{
+    width: 60%;
+
+
+}
+.ServiceCards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    gap: 30px;
+    margin-top: 50px;
+   
+   
+}
+.ServiceCards .ServiceCard{
+    width: 100%;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--bg-color); 
+    color: var(--text-color);
+    border: 10px;
+    box-shadow: 0 28px 10px rgba(0,0,0,0.5);
+   /* Default to white */
+   
+}
+.ServiceCards .ServiceCard::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    z-index: -1;
+    transition: .6s;
+}
+
+.ServiceCards .ServiceCard:hover:after{
+    transform: rotate(5deg);
+}
+
+.ServiceCards .ServiceCard i{
+    font-size: 48px;
+    color: var(--text-color);
+
+}
+
+.ServiceCards .ServiceCard h4{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 400;
+}
+.ServiceCards .ServiceCard h4 i{
+    font-size: 15px;
+    margin-top: 2px;
+
+}
+
+.ServiceCards .ServiceCard h3{
+   font-size: 30px;
+}
+
+@media screen and (max-width:1400px) {
+    .ServiceCards .ServiceCard h3{
+        font-size: 25px;
+     }
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .ServiceCards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ServiceCards {
+      grid-template-columns: 1fr;
+      gap: 40px; /* ✅ Changed from 90px to 40px for better spacing on mobile */
+    }
+  
+    .ServiceCards .ServiceCard {
+      height: auto; /* ✅ Let height adjust based on content */
+      padding: 20px; /* ✅ Slightly reduced padding for small screens */
+    }
+  
+    .ServiceCards .ServiceCard h3 {
+      font-size: 22px; /* ✅ Slightly smaller for smaller screen width */
+    }
+  
+    .ServiceCards .ServiceCard p {
+      font-size: 14px; /* ✅ Add this to keep text readable */
+      line-height: 1.6;
+    }
+  
+    .ServiceCards .ServiceCard i {
+      font-size: 40px; /* ✅ Smaller icon size for mobile */
+    }
+  }
+  
+
