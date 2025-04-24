@@ -14,10 +14,16 @@
 }
 
 .ProjectWrapper h2{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
 }
 .ProjectWrapper .pera{
     width: 60%;
     margin-bottom: 50px;
+}
+.users {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-bottom: 15px;
 }

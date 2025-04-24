@@ -14,9 +14,10 @@ function App() {
       <Nav />
       <Header />
       <About />
+      <Education />
       <Service />
     
-      <Education />
+      
       <Project />
     
     </>
