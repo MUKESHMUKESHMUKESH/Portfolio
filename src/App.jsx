@@ -7,6 +7,7 @@ import Service from './Components/Service/Service'
 import Project from './Components/Project/project'
 import Education from './Components/Education/Education'
 import Contact from './Components/contact/contact'
+
 function App() {
 
 
