@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import contactCSS from './../Contact/Contact.module.css';
+import contactCSS from './../Number/Number.module.css';
 
-function Contact() {
+function Number() {
     // Create states to hold form values
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -85,4 +85,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default Number;

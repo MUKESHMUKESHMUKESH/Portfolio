@@ -6,7 +6,9 @@ import About from './Components/About/About'
 import Service from './Components/Service/Service'
 import Project from './Components/Project/project'
 import Education from './Components/Education/Education'
-import Contact from './Components/Contact/contact'
+import Number from './Components/Number/Number'
+
+
 
 function App() {
 
@@ -19,7 +21,7 @@ function App() {
       <Education />
       <Service />
       <Project />
-      <Contact />
+      <Number />
     </>
   )
 }
