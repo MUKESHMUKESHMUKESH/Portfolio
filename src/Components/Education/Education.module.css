@@ -8,7 +8,7 @@
 }
 
 .educationWrapper h2{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
 }
 .educationWrapper p{
@@ -45,7 +45,7 @@
 }
 .Card .content h3{
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 200;
 }
 .Card1{
     background-image: url(./../../assets/1.webp.png);
@@ -61,4 +61,31 @@
 }
 .Card4{
     background-image: url(./../../assets/4.webp.png);
+}
+
+@media (max-width: 768px) {
+    .swiper {
+        width: 100% !important;
+    }
+
+    .Card {
+        width: 100%;
+        height: 300px;
+        background-size: 70% 70%;
+    }
+
+    .educationWrapper h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .educationWrapper p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .Card .content {
+        left: 10px;
+        padding: 10px 14px;
+    }
 }

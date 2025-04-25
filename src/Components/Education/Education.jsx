@@ -39,7 +39,7 @@ A dedicated Computer Science graduate with a strong foundation in programming, a
                     <div className={`${educationCSS.Card} ${educationCSS.Card1}`}>
                         <div className={educationCSS.content}>
                             <h1>10th Grade </h1>
-                            <h2>Karaikudi Maharishi vidya Manddir</h2>
+                            <h2>Maharishi vidya Manddir</h2>
                             <h3>2016-2017</h3>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ A dedicated Computer Science graduate with a strong foundation in programming, a
                     <div className={`${educationCSS.Card} ${educationCSS.Card2}`}>
                         <div className={educationCSS.content}>
                            <h1>12th Board</h1>
-                            <h2>Karaikudi Maharishi vidya Manddir</h2>
+                            <h2>Maharishi vidya Manddir</h2>
                             <h3>2018-2019</h3>
                         </div>
                     </div>

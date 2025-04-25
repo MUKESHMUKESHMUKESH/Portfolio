@@ -17,12 +17,13 @@ function Header() {
                     <i className="ri-linkedin-fill"></i>
                     <i className="ri-github-fill"></i>
                 </div>
-                <button>Download CV
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <a href="/Mukesh_M.Resume.pdf" download>
+                    <button class="download-btn">
+                        <span></span>
+                        <span></span>
+                          CV
+                    </button>
+               </a>
 
             </div>
         </div>

@@ -11,6 +11,7 @@
 .ProjectWrapper{
     color: var(--text-color);
     gap: 18px;
+
 }
 
 .ProjectWrapper h2{
@@ -28,4 +29,7 @@
     width: auto;
     display: block;
     margin-bottom: 15px;
+}
+@media screen and (max-width:1400px) {
+
 }
