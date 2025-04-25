@@ -4,7 +4,7 @@ import aboutImg from "./../../assets/about-bg.png";
 
 function About() {
   return (
-    <div className={`${aboutCSS.AboutWrapper} section`}>
+    <div className={`${aboutCSS.AboutWrapper} section`} id="about">
       {/* Left Side - About Text & Skills */}
       <div className={aboutCSS.aboutContainer}>
         <h2>About Me</h2>
@@ -17,8 +17,7 @@ function About() {
         <div className={aboutCSS.skillWrapper}>
           <h2>My Skills</h2>
           <p>
-            Vue JS, Vuetify, Strapi, API Integration, Business Development,
-            Problem-Solving
+          I am a detail-oriented and adaptable professional with a strong ability to manage tasks from start to finish. 
           </p>
 
           {/* Each Skill */}
@@ -44,6 +43,10 @@ function About() {
           </div>
           <div className={aboutCSS.skillItem}>
             <h3>C Programming</h3>
+            <div className={aboutCSS.line}></div>
+          </div>
+          <div className={aboutCSS.skillItem}>
+            <h3>Strapi</h3>
             <div className={aboutCSS.line}></div>
           </div>
           <div className={aboutCSS.skillItem}>

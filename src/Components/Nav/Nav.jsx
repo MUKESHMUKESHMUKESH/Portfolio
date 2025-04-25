@@ -33,15 +33,15 @@ function Nav() {
                 <a href="/">Mukesh</a>              
             </div>                
 
-            <ul ref={Menu}>                 
-                <li><a href="/"><i className="ri-home-3-line"></i>Home</a></li>                 
-                <li><a href="/about"><i className="ri-user-line"></i>About</a></li>                 
-                <li><a href="/services"><i className="ri-instance-line"></i>Services</a></li>                 
-                <li><a href="/education"><i className="ri-graduation-cap-line"></i>Education</a></li>
-                <li><a href="/projects"><i className="ri-code-box-line"></i>My Projects</a></li>
-     
-                <li><a href="/contact"><i className="ri-phone-line"></i>Contact</a></li>              
-            </ul>               
+            <ul ref={Menu}>
+                    <li><a href="#home" onClick={menuHandler}><i className="ri-home-3-line"></i>Home</a></li>
+                    <li><a href="#about" onClick={menuHandler}><i className="ri-user-line"></i>About</a></li>
+                    <li><a href="#service" onClick={menuHandler}><i className="ri-instance-line"></i>Services</a></li>
+                    <li><a href="#education" onClick={menuHandler}><i className="ri-graduation-cap-line"></i>Education</a></li>
+                    <li><a href="#project" onClick={menuHandler}><i className="ri-code-box-line"></i>My Projects</a></li>
+                    <li><a href="#contact" onClick={menuHandler}><i className="ri-phone-line"></i>Contact</a></li>
+</ul>
+               
 
             <div className={navCss.NavBtns}>                 
                 <i className={`ri-${theme === 'Dark' ? 'sun' : 'moon'}-line`} onClick={ThemeHandler}></i>                 

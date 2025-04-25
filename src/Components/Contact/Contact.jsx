@@ -19,9 +19,9 @@ function Contact() {
     };
 
     return (
-        <div className={`${contactCSS.ContactWrapper} section`}>
+        <div className={`${contactCSS.ContactWrapper} section`} id="contact">
             <h2>Contact US</h2>
-            <p className={contactCSS.pera}>Hai, This is Mukesh</p>
+            <p className={contactCSS.pera}>Let's Connect</p>
             <div className={contactCSS.ContactContainer}>
                 <div className={contactCSS.ContactInfo}>
                     <div className={contactCSS.card}>

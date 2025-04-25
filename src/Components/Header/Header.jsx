@@ -4,8 +4,16 @@ import headerCSS from './../Header/Header.module.css';
 import heroImg from './../../assets/hero.png';
 
 function Header() {
+    const trackDownload = () => {
+        if (window.gtag) {
+            window.gtag('event', 'Mukesh_M.Resume', {
+                event_category: 'Resume',
+                event_label: 'Download Clicked'
+            });
+        }
+    };
     return (
-        <div className={headerCSS.headerWrapper}>
+        <div className={headerCSS.headerWrapper} id="header">
             <div className={headerCSS.headerContainer}>
                 <img src={heroImg} alt="Hero Image" />
                 <h1>Hello 👋, I'M <span>Mukesh</span></h1>
@@ -30,6 +38,7 @@ function Header() {
                         <span></span>
                         <span></span>
                           CV
+                         
                     </button>
                </a>
 

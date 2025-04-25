@@ -8,7 +8,7 @@ import {Autoplay} from "swiper/modules";
 
 function Education () {
     return (
-        <div className={`${educationCSS.educationWrapper} section`}>
+        <div className={`${educationCSS.educationWrapper} section`}id="education">
             <h2>My Education</h2>
             <p className={educationCSS.pera}>
 A dedicated Computer Science graduate with a strong foundation in programming, always eager to learn and take on new challenges in the tech world.
@@ -68,7 +68,7 @@ A dedicated Computer Science graduate with a strong foundation in programming, a
                 <SwiperSlide>
                     <div className={`${educationCSS.Card} ${educationCSS.Card4}`}>
                         <div className={educationCSS.content}>
-                            <h1>MBA</h1>
+                            <h1>MBA (Distance Education)</h1>
                             <h2>Alagappa University</h2>
                             <h3>2024-2026</h3>
                         </div>

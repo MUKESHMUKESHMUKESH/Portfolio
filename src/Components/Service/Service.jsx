@@ -12,7 +12,7 @@ const defaultoptions = {
 
 function Service() {
   return (
-    <div className={`${serviceCSS.ServiceWrapper} section`}>
+    <div className={`${serviceCSS.ServiceWrapper} section` } id="service">
       <h2>What I Do</h2>
       <p className={serviceCSS.pera}>Hai ,This is Mukesh </p>
       <div className={serviceCSS.ServiceCards}>

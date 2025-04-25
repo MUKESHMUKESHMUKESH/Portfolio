@@ -12,7 +12,7 @@ import user4 from './../../assets/webpage4.png';
 
 function Project() {
     return (
-        <div className={`${projectCSS.ProjectWrapper} section`}>
+        <div className={`${projectCSS.ProjectWrapper} section`} id="project">
             <h2>My Project</h2>
             <p className={projectCSS.pera}>Here are a few of my projects.</p>
 

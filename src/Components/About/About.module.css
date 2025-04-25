@@ -78,8 +78,9 @@
   .skillWrapper .skillItem:nth-of-type(2) .line::after{width: 89%;}
   .skillWrapper .skillItem:nth-of-type(3) .line::after{width: 82%;}
   .skillWrapper .skillItem:nth-of-type(4) .line::after{width: 78%;}
-  .skillWrapper .skillItem:nth-of-type(5) .line::after{width: 70%;}
+  .skillWrapper .skillItem:nth-of-type(5) .line::after{width: 40%;}
   .skillWrapper .skillItem:nth-of-type(6) .line::after{width: 79%;}
+  .skillWrapper .skillItem:nth-of-type(7) .line::after{width: 70%;}
   .AboutImg {
     width: 50%;
     display: flex;
