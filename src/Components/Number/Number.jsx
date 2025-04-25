@@ -41,11 +41,11 @@ function Number() {
                 <div className={contactCSS.Contactform}>
                     <h3>Get in touch</h3>
                     <form 
-                        action="https://api.web3forms.com/submit" 
+                        action="" 
                         method="POST"
                         onSubmit={handleSubmit}
                     >
-                        <input type="hidden" name="access_key" value="fd2a82b4-54ad-472c-bf49-344a6b1e5935" />
+                        <input type="hidden" name="access_key" value="" />
 
                         <div className={contactCSS.inputWrapper}>
                             <input 
