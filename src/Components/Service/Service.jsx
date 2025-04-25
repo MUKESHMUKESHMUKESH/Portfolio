@@ -1,7 +1,8 @@
 import React from 'react';
 import serviceCSS from './../Service/Service.module.css';
 
-import { Tilt } from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
+
 
 const defaultoptions = {
   max: 10,
